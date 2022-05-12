@@ -7,6 +7,7 @@ public class Ex15 {
 	static int[] arr;
 	public void DFS(int L, int sum, int[] arr) {
 		if(sum>m) return;
+		if(L>=total)return;
 		if(sum==m) {
 		total=Math.min(L, sum);
 		}else {
