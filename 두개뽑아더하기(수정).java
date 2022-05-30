@@ -7,10 +7,8 @@ class Solution {
             for(int j = i+1 ;j<numbers.length;j++){
                 arr.add(numbers[i]+numbers[j]);
             }
-            
         }
        int[] answer =    arr.stream().sorted().mapToInt(Integer::intValue).toArray();
-
         return answer;
         
     }
