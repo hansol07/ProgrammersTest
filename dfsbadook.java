@@ -9,8 +9,6 @@ static int[] badook;
 		if(sum>c)return;
 		if(l==n) {
 				answer=Math.max(answer,sum);
-			
-		
 		}else {
 			DFS(l+1,sum+badook[l]);
 			DFS(l+1,sum);
