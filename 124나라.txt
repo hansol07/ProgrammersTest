@@ -12,7 +12,7 @@ class Solution {
        return pow;
    }  
     public String solution(int n) {
-        // 몇자리수   ex) 100 --> 3
+        // 몇자리수인지   ex) 100 --> 3
         int pow = pow(n);
         int rNum = n ;
         for(int i =pow-1 ; i>=1 ; i--){
