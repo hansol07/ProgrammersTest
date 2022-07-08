@@ -11,7 +11,7 @@ class Solution {
             for(int i=0;i<budgets.length-1;i++){
             count++;
             M-=budgets[i];
-            if( (M/(num-count)) > budgets[i+1]){     //남은 예산 / 남은 지방수 가 다음 지방 예산보다 크면 통과
+            if( (M/(num-count)) > budgets[i+1]){     //(남은 예산/남은지방수) 가 다음 지방 예산보다 크면 통과
                  answer=budgets[i+1];
             }else{      
               answer=M/(num-count);
