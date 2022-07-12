@@ -15,7 +15,7 @@ class Solution {
             }
         });
         if(flag){
-            answer="0";
+            answer = "0";
         }else{
         for(int i = 0 ; i<str.length;i++){
             answer += str[i];
